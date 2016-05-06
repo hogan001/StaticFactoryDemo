@@ -9,11 +9,6 @@ import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
 
-/**
- * 
- * 特別注明 得到PeopleBean 一定是 PeopleBean.obtain()得到，不能New;
- * */
-
 public class MainActivity extends Activity {
 	private ListView listView;
 	private ArrayList<PeopleBean> dataList;
@@ -33,7 +28,7 @@ public class MainActivity extends Activity {
 		for (int i = 0; i < 100; i++) {
 			PeopleBean bean = PeopleBean.obtain();
 			bean.setAge(i + " ");
-			bean.setName("王" + i + "小");
+			bean.setName("闄堣檸_" + i + "");
 			dataList.add(bean);
 		}
 		listView = (ListView) findViewById(R.id.listView);

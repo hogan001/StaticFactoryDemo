@@ -7,7 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-
+/**
+ * @author chenhu
+ * @描述 万能Adapter
+ * @时间 2016-5-6 下午3:12:46
+ * */
 public abstract class CommonAdapter<T> extends BaseAdapter {
 	protected Context mContext;
 	protected List<T> mDatas;

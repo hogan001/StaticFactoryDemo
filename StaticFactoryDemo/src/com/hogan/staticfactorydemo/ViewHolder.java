@@ -7,10 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 /**
- * @作�? ch
- * @描述 万能ViewHolder，要�?��方法自己在里面添加就�?
- * @时间 2015�?�?4�?下午4:56:21
- */
+ * @author chenhu
+ * @描述  万能ViewHolder，要加什么就自己加方法
+ * @时间 2016-5-6 下午3:11:31
+ * */
 public class ViewHolder {
 	private SparseArray<View> mViews;
 	
